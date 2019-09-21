@@ -23,7 +23,6 @@ class NbastatsSpider(scrapy.Spider):
 
 
     def parse(self, response):
-        data = json.loads(response.text)
         pass
 
 
